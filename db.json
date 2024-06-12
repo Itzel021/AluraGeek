@@ -1,0 +1,40 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "nombre":"Audifonos",
+            "precio":"123.34",
+            "imagen":"./img/audi-morado.jpg"
+        },
+        {
+            "id":2,
+            "nombre":"Ultrapods Sams",
+            "precio":"123.34",
+            "imagen":"./img/audi-negro.jpg"
+        },
+        {
+            "id":3,
+            "nombre":"Audifonos de diadema",
+            "precio":"123.34",
+            "imagen":"./img/New Dual.jpg"
+        },
+        {
+            "id":4,
+            "nombre":"Audifonos XP",
+            "precio":"123.34",
+            "imagen":"./img/audi.jpg"
+        },
+        {
+            "id":5,
+            "nombre":"Ultrapods Pink",
+            "precio":"123.34",
+            "imagen":"./img/Wireless Earphone.jpg"
+        },
+        {
+            "id":6,
+            "nombre":"Wireleess",
+            "precio":"123.34",
+            "imagen":"./img/audi-pink.jpg"
+        }
+    ]
+}
