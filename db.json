@@ -1,40 +1,52 @@
 {
-    "productos":[
-        {
-            "id":1,
-            "nombre":"Audifonos",
-            "precio":"123.34",
-            "imagen":"./img/audi-morado.jpg"
-        },
-        {
-            "id":2,
-            "nombre":"Ultrapods Sams",
-            "precio":"123.34",
-            "imagen":"./img/audi-negro.jpg"
-        },
-        {
-            "id":3,
-            "nombre":"Audifonos de diadema",
-            "precio":"123.34",
-            "imagen":"./img/New Dual.jpg"
-        },
-        {
-            "id":4,
-            "nombre":"Audifonos XP",
-            "precio":"123.34",
-            "imagen":"./img/audi.jpg"
-        },
-        {
-            "id":5,
-            "nombre":"Ultrapods Pink",
-            "precio":"123.34",
-            "imagen":"./img/Wireless Earphone.jpg"
-        },
-        {
-            "id":6,
-            "nombre":"Wireleess",
-            "precio":"123.34",
-            "imagen":"./img/audi-pink.jpg"
-        }
-    ]
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Audifonos",
+      "precio": "123.34",
+      "imagen": "./img/audi-morado.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Ultrapods Sams",
+      "precio": "123.34",
+      "imagen": "./img/audi-negro.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Audifonos de diadema",
+      "precio": "123.34",
+      "imagen": "./img/New Dual.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Wireleess",
+      "precio": "123.34",
+      "imagen": "./img/audi-pink.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Audifonos SONY",
+      "precio": "345.87",
+      "imagen": "https://imgs.search.brave.com/LcnI5vtJaHiXmK_BVcBCsnAGE8IijFLBUeQUOldCD8w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQx/MjI0MDc3MS9lcy9m/b3RvL2F1cmljdWxh/cmVzLXNvYnJlLWZv/bmRvLWJsYW5jby5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/UEhacTRPTVlMWmdE/UUxVSGVBR2wwVEY0/Q3RTc3h5bGQwSnVf/TkZmS2xhVT0"
+    },
+    {
+      "id": "9",
+      "nombre": "Audifonos rosa blanco",
+      "precio": "546.00",
+      "imagen": "https://imgs.search.brave.com/cuCJSOrKf2wv2VkWfUqxtPiAZJ-2C4de5sLHYeIC2Y0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MTMwNDA4MDkwMjQt/YjRlZjdiYTk5YmMz/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRoOGZH/RjFaR2xtYjI1dmMz/eGxibnd3Zkh3d2ZI/eDhNQT09"
+    },
+    {
+      "id": "7d0b",
+      "nombre": "CGYIN OPEN",
+      "precio": "250.00",
+      "imagen": "https://imgs.search.brave.com/ykM6Dgua1TmYQxn0gtun9RGDoD4qoGmmniaMzlPyZt8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFnT1NIZHJHcEwu/anBn"
+    },
+    {
+      "id": "f63c",
+      "nombre": "HTC manos libres",
+      "precio": "360.78",
+      "imagen": "https://imgs.search.brave.com/iuzre5JB9WGbA9rFBBeeCsBTq4JMRIPcOL-0xxg0_Z8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFNZnhEKzRVSkwu/anBn"
+    }
+  ]
 }
