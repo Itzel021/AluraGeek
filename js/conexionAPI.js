@@ -1,6 +1,6 @@
 async function listarProductos(){
     //fetch es un metodo asincrono que recibe un url y retorna una promesa
-    const conexion = await fetch("http://localhost:30001/productos");//Peticion GET
+    const conexion = await fetch("http://localhost:3001/productos");//Peticion GET
     const conexionConvertida = conexion.json();
 
     //console.log(conexionConvertida);
@@ -27,8 +27,18 @@ async function crearProducto(nombre,precio,imagen){
     return conexionConvertida;
 }
 
+async function eliminarProducto(id) {
+    const conexion = await fetch(`http://localhost:3001/productos/${id}`, {
+        method: "DELETE"
+    });
+    if (!conexion.ok) {
+        throw new Error("No fue posible eliminar el producto");
+    }
+}
+
 export const conexionAPI={
     listarProductos,
-    crearProducto
+    crearProducto,
+    eliminarProducto
 }
 //listarProductos();

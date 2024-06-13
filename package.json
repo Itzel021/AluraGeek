@@ -1,7 +1,7 @@
 {
   "name": "alura-geek",
   "version": "1.0.0",
-  "description": "Plataforma de registro de productos.",
+  "description": "plataforma de registro de productos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
