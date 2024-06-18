@@ -1,6 +1,7 @@
 async function listarProductos(){
     //fetch es un metodo asincrono que recibe un url y retorna una promesa
-    const conexion = await fetch("https://alura-geek-fake.vercel.app/productos");//Peticion GET
+    const conexion = await fetch("https://alura-geek-fake-4gno.vercel.app/productos");//Peticion GET Servidor Vercel
+    //const conexion = await fetch("http://localhost:3001/productos");
     const conexionConvertida = conexion.json();
 
     //console.log(conexionConvertida);
@@ -8,7 +9,8 @@ async function listarProductos(){
 }
 
 async function crearProducto(nombre,precio,imagen){
-    const conexion= await fetch("https://alura-geek-fake.vercel.app/productos",{
+    const conexion= await fetch("https://alura-geek-fake-4gno.vercel.app/productos",{//servidor VERCEL
+    //const conexion = await fetch("http://localhost:3001/productos",{
     method:"POST",
     headers:{
         "Content-type":"application/json"
@@ -17,7 +19,7 @@ async function crearProducto(nombre,precio,imagen){
         nombre:nombre,
         precio:precio,
         imagen:imagen
-    })
+    })  
     })
     if(!conexion.ok){
         throw new Error("No fue posible enviar el producto");
@@ -28,7 +30,8 @@ async function crearProducto(nombre,precio,imagen){
 }
 
 async function eliminarProducto(id) {
-    const conexion = await fetch(`https://alura-geek-fake.vercel.app/productos${id}`, {
+    const conexion = await fetch(`https://alura-geek-fake-4gno.vercel.app/productos`, { //servidor VERCEL
+    //const conexion = await fetch(`http://localhost:3001/productos/${id}`, { Servidor local
         method: "DELETE"
     });
     if (!conexion.ok) {

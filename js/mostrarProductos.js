@@ -20,6 +20,7 @@ async function eliminarProducto(id) {
     }
 }
 
+
 function crearCard(id, nombre, precio, imagen) {
     const producto = document.createElement("div");
     producto.className = "card";
