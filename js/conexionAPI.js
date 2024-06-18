@@ -1,6 +1,6 @@
 async function listarProductos(){
     //fetch es un metodo asincrono que recibe un url y retorna una promesa
-    const conexion = await fetch("https://alura-geek-fake-4gno.vercel.app/productos");//Peticion GET Servidor Vercel
+    const conexion = await fetch("https://alura-geek-f-git-0f75c2-itzel-daniela-martinez-carrera-projects.vercel.app/productos");//Peticion GET Servidor Vercel
     //const conexion = await fetch("http://localhost:3001/productos");
     const conexionConvertida = conexion.json();
 
@@ -9,7 +9,7 @@ async function listarProductos(){
 }
 
 async function crearProducto(nombre,precio,imagen){
-    const conexion= await fetch("https://alura-geek-fake-4gno.vercel.app/productos",{//servidor VERCEL
+    const conexion= await fetch("https://alura-geek-f-git-0f75c2-itzel-daniela-martinez-carrera-projects.vercel.app/productos",{//servidor VERCEL
     //const conexion = await fetch("http://localhost:3001/productos",{
     method:"POST",
     headers:{
@@ -30,7 +30,7 @@ async function crearProducto(nombre,precio,imagen){
 }
 
 async function eliminarProducto(id) {
-    const conexion = await fetch(`https://alura-geek-fake-4gno.vercel.app/productos/${id}`, { //servidor VERCEL
+    const conexion = await fetch(`https://alura-geek-f-git-0f75c2-itzel-daniela-martinez-carrera-projects.vercel.app/productos/${id}`, { //servidor VERCEL
     //const conexion = await fetch(`http://localhost:3001/productos/${id}`, { Servidor local
         method: "DELETE"
     });
