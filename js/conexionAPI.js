@@ -30,7 +30,7 @@ async function crearProducto(nombre,precio,imagen){
 }
 
 async function eliminarProducto(id) {
-    const conexion = await fetch(`https://alura-geek-fake-4gno.vercel.app/productos`, { //servidor VERCEL
+    const conexion = await fetch(`https://alura-geek-fake-4gno.vercel.app/productos/${id}`, { //servidor VERCEL
     //const conexion = await fetch(`http://localhost:3001/productos/${id}`, { Servidor local
         method: "DELETE"
     });
